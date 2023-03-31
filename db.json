@@ -1,0 +1,272 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "email": "pctrung@gmail.com",
+      "password": "zxc123456",
+      "imgadmin": "https://thumbs.dreamstime.com/z/dise%C3%B1o-de-plantilla-mascota-ingeniero-anime-chibi-logotipo-manual-minimalista-con-estilo-lindo-manga-182796987.jpg"
+    },
+    {
+      "id": 2,
+      "email": "pctrung2@gmail.com",
+      "password": "zxc123456",
+      "imgadmin": "https://i.pinimg.com/236x/ba/d5/d3/bad5d3703612a9460c96b5d7107b0ad2.jpg"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "email": "trung@gmail.com",
+      "password": "zxc123",
+      "imguser": "https://i.pinimg.com/736x/31/52/81/31528187dbc477039c5e8d32bbe92c54.jpg",
+      "name": "trung",
+      "phone": "0123456789",
+      "address": "Huế",
+      "point": 1
+    },
+    {
+      "id": 2,
+      "email": "xml@gmail.com",
+      "password": "zxc123",
+      "imguser": "https://tophinhanhdep.com/wp-content/uploads/2021/03/top-hinh-anh-pikachu-kute-nhat.jpg",
+      "name": "xml",
+      "phone": "0135792468",
+      "address": "Đà Nẵng",
+      "point": 2
+    },
+    {
+      "id": 3,
+      "email": "dung@gmail.com",
+      "password": "zxc123",
+      "imguser": "https://png.pngtree.com/png-clipart/20200102/ourlarge/pngtree-anime-characters-learn-by-reading-png-image_2109248.jpg",
+      "name": "dung",
+      "phone": "09352991418",
+      "address": "Huế",
+      "point": 1
+    },
+    {
+      "id": 4,
+      "email": "tu@gmail.com",
+      "password": "zxc123",
+      "imguser": "https://png.pngtree.com/png-clipart/20200104/ourlarge/pngtree-grateful-for-the-freshness-of-the-morning-breeze-anime-character-png-image_2109964.jpg",
+      "name": "tu",
+      "phone": "0582484157",
+      "address": "Huế",
+      "point": 2
+    },
+    {
+      "id": 5,
+      "email": "hieu@gmail.com",
+      "password": "zxc123",
+      "imguser": "https://png.pngtree.com/png-clipart/20200503/ourlarge/pngtree-anime-character-cool-style-png-image_2198452.jpg",
+      "name": "hieu",
+      "phone": "0763329342",
+      "address": "Hà Nội",
+      "point": 2
+    },
+    {
+      "id": 6,
+      "email": "ducjk@gmail.com",
+      "password": "zxc123",
+      "imguser": "https://png.pngtree.com/png-clipart/20200104/ourlarge/pngtree-smile-cute-anime-character-png-image_2109966.jpg",
+      "name": "duc",
+      "phone": "056789412",
+      "address": "Đằ Nẵng",
+      "point": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Toán"
+    },
+    {
+      "id": 2,
+      "name": "Lập Trình"
+    },
+    {
+      "id": 3,
+      "name": "Văn Học"
+    },
+    {
+      "id": 4,
+      "name": "Triết Học"
+    },
+    {
+      "id": 5,
+      "name": "Ngoại Ngữ"
+    }
+  ],
+  "book": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Toán cao cấp",
+      "quantity": 10,
+      "price": 10,
+      "status": "new",
+      "img": "https://vnuhcmpress.edu.vn/wp-content/uploads/2019/04/z2175624939315_8014da317bc8a402255a1fbfc021c4aa.jpg",
+      "borrowerIds": []
+    },
+    {
+      "id": 3,
+      "categoryId": 1,
+      "name": "Đại số tuyến tính",
+      "quantity": 10,
+      "price": 10,
+      "status": "new",
+      "img": "https://lib.hcmut.edu.vn/uploads/noidung/dai-so-tuyen-tinh-0-855.jpg",
+      "borrowerIds": []
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "name": "Kỹ thuật lập trình c",
+      "quantity": 10,
+      "price": 10,
+      "status": "new",
+      "img": "https://ironhackvietnam.edu.vn/wp-content/uploads/2021/03/nhung-cuon-sach-hay-ve-lap-trinh-tieng-viet.jpg",
+      "borrowerIds": []
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "name": "Lập trình Python",
+      "quantity": 10,
+      "price": 10,
+      "status": "old",
+      "img": "https://d1iv5z3ivlqga1.cloudfront.net/wp-content/uploads/2021/01/30153258/sach-python-tieng-viet-duong-vao-lap-trinh-python-669x1024.jpg",
+      "borrowerIds": []
+    },
+    {
+      "id": 6,
+      "categoryId": 2,
+      "name": "Lập trình Web",
+      "quantity": 10,
+      "price": 10,
+      "status": "new",
+      "img": "https://namsaigon.edu.vn/thuvien/wp-content/uploads/2020/11/laptrinhweb.jpg",
+      "borrowerIds": []
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "name": "Ngữ văn 12",
+      "quantity": 10,
+      "price": 10,
+      "status": "new",
+      "img": "https://hieusach24h.com/wp-content/uploads/2021/09/Ngu-Van-12-Tap-1.jpg",
+      "borrowerIds": []
+    },
+    {
+      "id": 8,
+      "categoryId": 3,
+      "name": "Văn Học Việt Nam",
+      "quantity": 10,
+      "price": 10,
+      "status": "old",
+      "img": "https://cf.shopee.vn/file/e6980cc1fcc28c786ed8bdaa63cf4b3e",
+      "borrowerIds": []
+    },
+    {
+      "id": 9,
+      "categoryId": 3,
+      "name": "Ngữ Văn 11",
+      "quantity": 10,
+      "price": 10,
+      "status": "old",
+      "img": "https://metaisach.com/wp-content/uploads/2019/01/sach-giao-khoa-ngu-van-lop-11.jpg",
+      "borrowerIds": []
+    },
+    {
+      "id": 10,
+      "categoryId": 4,
+      "name": "Triết 3",
+      "quantity": 10,
+      "price": 10,
+      "status": "new",
+      "img": "https://cf.shopee.vn/file/e6980cc1fcc28c786ed8bdaa63cf4b3e",
+      "borrowerIds": []
+    },
+    {
+      "id": 11,
+      "categoryId": 4,
+      "name": "Triết 1",
+      "quantity": 10,
+      "price": 10,
+      "status": "old",
+      "img": "https://cf.shopee.vn/file/vn-11134201-23030-hi9mql6do6nv32",
+      "borrowerIds": []
+    },
+    {
+      "id": 12,
+      "categoryId": 4,
+      "name": "Tư Tưởng Hồ Chí Minh",
+      "quantity": 10,
+      "price": 10,
+      "status": "old",
+      "img": "https://www.nxbctqg.org.vn/img_data/images/238626889476_ttkc.jpg",
+      "borrowerIds": []
+    },
+    {
+      "id": 13,
+      "categoryId": 4,
+      "name": "Triết 2",
+      "quantity": 10,
+      "price": 10,
+      "status": "new",
+      "img": "https://cf.shopee.vn/file/vn-11134201-23030-hi9mql6do6nv32",
+      "borrowerIds": []
+    },
+    {
+      "id": 14,
+      "categoryId": 4,
+      "name": "Lịch sử triết học Việt Nam",
+      "quantity": 10,
+      "price": 10,
+      "status": "old",
+      "img": "https://www.khaitam.com/Data/Sites/1/Product/15914/lich---su---triet---hoc---bo---2---tap.png",
+      "borrowerIds": []
+    },
+    {
+      "id": 15,
+      "categoryId": 4,
+      "name": "Trò truyện cùng triết học",
+      "quantity": 10,
+      "price": 10,
+      "status": "old",
+      "img": "https://salt.tikicdn.com/cache/w1200/ts/product/25/e6/b7/1d1c7a2502e640bd573f707462e8b130.jpg",
+      "borrowerIds": []
+    },
+    {
+      "id": 16,
+      "categoryId": 5,
+      "name": "Tiếng Anh",
+      "quantity": 10,
+      "price": 10,
+      "status": "new",
+      "img": "https://salt.tikicdn.com/cache/280x280/ts/product/e1/04/31/7763d9035552760f627c34acfec0e12f.jpg",
+      "borrowerIds": []
+    },
+    {
+      "id": 17,
+      "categoryId": 5,
+      "name": "Tiếng Pháp",
+      "quantity": 10,
+      "price": 10,
+      "status": "old",
+      "img": "https://images.thuvienpdf.com/w66UEkc5dt.webp",
+      "borrowerIds": []
+    },
+    {
+      "id": 18,
+      "categoryId": 5,
+      "name": "Tiếng Trung",
+      "quantity": 10,
+      "price": 10,
+      "status": "new",
+      "img": "https://images.thuvienpdf.com/Wc4WuFrqNM.webp",
+      "borrowerIds": []
+    }
+  ]
+}
